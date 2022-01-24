@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:fillViewport="true"
+    android:padding="16dp" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Famous Trees of the world!"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1) The Ashbrittle Yew"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/img1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="Located in the heart of England’s Somerset County, the Ashbrittle Yew is estimated to be around 3,000-4,000 years old. With a girth of 38 feet, the Ashbrittle Yew is beloved by many, including the locals of the village. Rumor has it that a pre-Roman chief is buried under the mound." />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2) General Sherman"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/img2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="This giant sequoia can be found in California’s Sequoia National Park. Measuring 52,500 cubic feet, General Sherman is the largest tree in the entire world. The tree was named after Civil War General William Tecumseh Sherman and is estimated to be about 2,000 years old." />
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3) Tree of Ténéré"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/img3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="Formerly known as “The Most Isolated Tree in the World,” the Tree of Ténéré stood on its own for a 250-mile radius in Niger’s Sahara desert. In 1973, the tree was run over by a drunk driver, causing the trunk to snap. The tree was admired by locals, and its remains can now be found in a mausoleum at the Niger National Museum in Niamey." />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4) Jaya Sri Maha Bodhi"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/img4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="Brought over to Sri Lanka from India, the Jaya Sri Maha Bodhi is believed to have been planted in the Mahameghavana Park in Anuradhapura by King Devanampiyatissa in 249 BC, making it the oldest documented tree in the world. The Jaya Sri Maha Bodhi is a sacred tree, believed to have grown from the branch of the fig tree under which Buddha gained enlightenment." />
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5) Major Oak"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/img4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:justificationMode="inter_word"
+            android:text="Standing in the heart of Sherwood Forest of Nottinghamshire, England, the Major Oak is believed to be the tree where Robin Hood once took shelter. The age of this English Oak is believed to be between 800-1,000 years old. Weighing an estimated 23 tons, Major Oak has a girth of 33 feet and branches that spread up to 92 feet. In 2014, Major Oak was named “England’s Tree of the Year.”"/>
+
+    </LinearLayout>
+</ScrollView>
